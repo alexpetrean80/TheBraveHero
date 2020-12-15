@@ -1,10 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 
 
-class ValidationException extends Exception
+class ValidationError extends Exception
 {
     /**
-     * ValidationException constructor.
+     * ValidationError constructor.
      * @param string $message
      * @param int $code
      * @param Exception|null $previous

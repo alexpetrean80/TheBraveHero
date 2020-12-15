@@ -1,8 +1,5 @@
 <?php declare(strict_types=1);
 
-/**
- * Class SpecialPower
- */
 class SpecialPower
 {
     private string $name;
@@ -56,6 +53,7 @@ class SpecialPower
     {
         return $this->chance;
     }
+
 
 }
 

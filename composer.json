@@ -1,9 +1,12 @@
 {
     "name": "alex/the-brave-hero",
-    "description": "A small console RPG written in PHP7",
+    "description": "A small console RPG written in PHP 7",
     "type": "project",
     "require": {
         "phpunit/phpunit": "^9.5"
+    },
+    "require-dev": {
+        "phpunit/php-code-coverage": "^9.2"
     },
     "license": "MIT",
     "authors": [
@@ -11,5 +14,12 @@
             "name": "Alex Petrean",
             "email": "alex.petrean@outlook.com"
         }
-    ]
+    ],
+    "autoload": {
+        "classmap": [
+            "./src/model",
+            "./src/controller",
+            "./src/errors"
+        ]
+    }
 }
